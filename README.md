@@ -17,7 +17,7 @@
 * node.js 13.9.0
 * vue 2.9.6
 
-### Prerequisites
+Prerequisites
 ---
 None
 
@@ -32,11 +32,11 @@ None
 
 ## Contributors
 > Bo Wang. NEFU.China <br>
-> Peng Liu
+>Peng Liu
 
-## Support
+Support
 ---
-##License
+## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
