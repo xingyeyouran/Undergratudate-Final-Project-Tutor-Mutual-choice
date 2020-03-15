@@ -11,6 +11,7 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
+//This entity represent the tutor,who has specified username & password.
 public class Admin {
     @Id
     private String UserName;

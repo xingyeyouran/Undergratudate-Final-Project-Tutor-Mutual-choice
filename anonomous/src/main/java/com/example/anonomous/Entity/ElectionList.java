@@ -6,15 +6,22 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import java.util.UUID;
 
-@Data
 @Entity
+@Data
 @NoArgsConstructor
-public class Preference {
+public class ElectionList {
     @Id
     @GeneratedValue
     private UUID uuid;
-    private String name;
-    private String description;
+    private float grades;
+    private float weight;
+    private float lowestGradeDemand;
+    @ManyToOne
+    private Student student;
+    @ManyToOne
+    private Course course;
+
 }

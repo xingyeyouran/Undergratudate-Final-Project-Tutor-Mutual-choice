@@ -1,10 +1,13 @@
 # Tutor-undergraduates  picking system
 
 ### This is a small web application for undergraduates and tutor picks mutually in the graduation project
+
 ## Table of Contents
----
+
 - [Installation](#Installation)
 - [Features](#features)
+- [Bugs](#Bugs)
+- [Thanks](#Thanks)
 - [License](#license)
 ---
 ##Installation
@@ -21,9 +24,6 @@ Prerequisites
 ---
 None
 
-### run
-
-
 ## Features
 *  loads students & course easily
 * setting minimum grades for course to select appreciate students 
@@ -31,10 +31,10 @@ None
 ## Bugs
 
 ## Contributors
-> Bo Wang. NEFU.China <br>
 >Peng Liu
-
-Support
+---
+##Thanks
+>Thanks Prof. Wang offered a lot helps in project and systematic learning of SpringFramework.
 ---
 ## License
 
