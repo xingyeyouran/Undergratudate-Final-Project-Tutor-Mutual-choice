@@ -14,13 +14,16 @@ import java.util.List;
 @NoArgsConstructor
 public class Student {
     @Id
-    private int StudentID;
+    private int studentID;
     private String name;
     private Boolean eligible;
+    private float finalGrade;
     @ManyToOne
     private Admin administrator;
     @OneToMany(mappedBy = "student")
     private List<ElectionList> elections;
+    @OneToMany(mappedBy = "student")
+    private List<Preference> preferences;
 
 
 }
