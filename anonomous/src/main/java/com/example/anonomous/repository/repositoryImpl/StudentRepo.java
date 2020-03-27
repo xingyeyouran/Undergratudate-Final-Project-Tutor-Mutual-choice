@@ -1,12 +1,9 @@
-package com.example.anonomous.Repository;
+package com.example.anonomous.repository.repositoryImpl;
 
-import com.example.anonomous.Entity.Student;
-import com.example.anonomous.Repository.RepositoryImpl.BaseRepositoryImpl;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.support.JpaEntityInformation;
+import com.example.anonomous.entity.Student;
+import com.example.anonomous.repository.Srepo;
 import org.springframework.stereotype.Repository;
 
-import javax.naming.Name;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -17,7 +14,7 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 
 @Repository
-public class StudentRepo {
+public class StudentRepo implements Srepo {
     @PersistenceContext
     private  EntityManager manager;
 

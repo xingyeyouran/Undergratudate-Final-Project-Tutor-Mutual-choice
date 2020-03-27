@@ -1,13 +1,11 @@
-package com.example.anonomous.Repository.RepositoryImpl;
+package com.example.anonomous.repository.repositoryImpl;
 
-import com.example.anonomous.Repository.BaseRepository;
+import com.example.anonomous.repository.BaseRepository;
 import org.springframework.data.jpa.repository.support.JpaEntityInformation;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
 
 public class BaseRepositoryImpl<T,ID> extends SimpleJpaRepository<T,ID> implements BaseRepository<T,ID> {
     private final EntityManager manager;

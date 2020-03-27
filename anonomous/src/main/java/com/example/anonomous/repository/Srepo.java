@@ -1,6 +1,6 @@
-package com.example.anonomous.Repository;
+package com.example.anonomous.repository;
 
-import com.example.anonomous.Entity.Student;
+import com.example.anonomous.entity.Student;
 
 import java.util.List;
 

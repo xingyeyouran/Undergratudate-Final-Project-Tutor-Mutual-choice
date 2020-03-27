@@ -1,6 +1,6 @@
 package com.example.anonomous;
 
-import com.example.anonomous.Repository.RepositoryImpl.BaseRepositoryImpl;
+import com.example.anonomous.repository.repositoryImpl.BaseRepositoryImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
