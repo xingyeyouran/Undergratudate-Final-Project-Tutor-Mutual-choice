@@ -17,6 +17,8 @@ public class Student {
     private String name;
     private Boolean eligible;
     private Float finalGrade;
+    @Version
+    private Integer version;
     @Column(columnDefinition = "timestamp default current_timestamp",insertable = false,updatable = false)
     private LocalDateTime insertStamp;
     @Column(columnDefinition = "timestamp default current_timestamp"+" on update current_timestamp",insertable = false,updatable = false)
